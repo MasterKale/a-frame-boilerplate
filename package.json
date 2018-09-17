@@ -1,0 +1,25 @@
+{
+  "name": "a-frame-boilerplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "aframe": "^0.8.2",
+    "aframe-animation-component": "^5.1.0",
+    "aframe-event-set-component": "^4.1.2",
+    "aframe-layout-component": "^5.2.0",
+    "aframe-template-component": "^3.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "file-loader": "^2.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
