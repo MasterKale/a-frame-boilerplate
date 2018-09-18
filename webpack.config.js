@@ -13,6 +13,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[hash].js',
+    // Use absolute paths for assets
+    publicPath: '/',
   },
   module: {
       rules: [
