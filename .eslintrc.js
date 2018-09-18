@@ -1,5 +1,5 @@
 module.exports = {
-    "extends": "airbnb-base/legacy",
+    "extends": "airbnb-base",
     globals: {
       "AFRAME": true,
     },
